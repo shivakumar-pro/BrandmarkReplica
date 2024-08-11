@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BrandmarkReplica/static/css/main.dfc02d3d.css",
-    "main.js": "/BrandmarkReplica/static/js/main.70c0f58d.js",
+    "main.js": "/BrandmarkReplica/static/js/main.9d20d943.js",
     "static/js/453.1c1b93b2.chunk.js": "/BrandmarkReplica/static/js/453.1c1b93b2.chunk.js",
     "index.html": "/BrandmarkReplica/index.html",
     "main.dfc02d3d.css.map": "/BrandmarkReplica/static/css/main.dfc02d3d.css.map",
-    "main.70c0f58d.js.map": "/BrandmarkReplica/static/js/main.70c0f58d.js.map",
+    "main.9d20d943.js.map": "/BrandmarkReplica/static/js/main.9d20d943.js.map",
     "453.1c1b93b2.chunk.js.map": "/BrandmarkReplica/static/js/453.1c1b93b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfc02d3d.css",
-    "static/js/main.70c0f58d.js"
+    "static/js/main.9d20d943.js"
   ]
 }
