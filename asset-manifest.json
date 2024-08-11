@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dfc02d3d.css",
-    "main.js": "/static/js/main.e4d73d7a.js",
-    "static/js/453.1c1b93b2.chunk.js": "/static/js/453.1c1b93b2.chunk.js",
-    "index.html": "/index.html",
-    "main.dfc02d3d.css.map": "/static/css/main.dfc02d3d.css.map",
-    "main.e4d73d7a.js.map": "/static/js/main.e4d73d7a.js.map",
-    "453.1c1b93b2.chunk.js.map": "/static/js/453.1c1b93b2.chunk.js.map"
+    "main.css": "/BrandmarkReplica/static/css/main.dfc02d3d.css",
+    "main.js": "/BrandmarkReplica/static/js/main.7c857240.js",
+    "static/js/453.1c1b93b2.chunk.js": "/BrandmarkReplica/static/js/453.1c1b93b2.chunk.js",
+    "index.html": "/BrandmarkReplica/index.html",
+    "main.dfc02d3d.css.map": "/BrandmarkReplica/static/css/main.dfc02d3d.css.map",
+    "main.7c857240.js.map": "/BrandmarkReplica/static/js/main.7c857240.js.map",
+    "453.1c1b93b2.chunk.js.map": "/BrandmarkReplica/static/js/453.1c1b93b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfc02d3d.css",
-    "static/js/main.e4d73d7a.js"
+    "static/js/main.7c857240.js"
   ]
 }
