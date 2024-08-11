@@ -4,22 +4,22 @@ const content = [
     {
         name: 'Sarah Locatelli',
         description: `I'm not a designer, when I had to make a logo I found myself staring at a blank screen.Brandmark made the process actually enjoyable`,
-        src: '${process.env.PUBLIC_URL}/images/slide3.png',
-        userpic: '${process.env.PUBLIC_URL}/images/userpic1.png',
+        src: 'images/slide3.png',
+        userpic: 'images/userpic1.png',
         occupation: 'CEO, Publaw Project'
     },
     {
         name: 'Vellyntina Kushmych',
         description: `I tried other logo makers and Brandmark is the best value. Quality is exceptional and includes a complete branding solution for my company`,
-        src: '${process.env.PUBLIC_URL}/images/slide2.png',
-        userpic: '${process.env.PUBLIC_URL}/images/userpic2.png',
+        src: 'images/slide2.png',
+        userpic: 'images/userpic2.png',
         occupation: 'Founder, Nobble Tide LCC'
     },
     {
         name: 'Courtineo costrino',
         description: `I was afraid to pay thousands for a logo that didn't turn out right for my business. The Brandmark team helped me create a logo that I love!`,
-        src: '${process.env.PUBLIC_URL}/images/slide1.png',
-        userpic: '${process.env.PUBLIC_URL}/images/userpic3.png',
+        src: 'images/slide1.png',
+        userpic: 'images/userpic3.png',
         occupation: 'Founder, Loctia'
     },
 ];

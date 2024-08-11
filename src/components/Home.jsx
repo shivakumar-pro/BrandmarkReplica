@@ -28,19 +28,19 @@ export default function Home() {
     <div className="h-24 flex items-center justify-center w-3/4 mt-20">
         <ul className="w-full grid gap-4 lg:grid-cols-5 sm:grid-cols-3 xs:grid-cols-3">
             <li className="flex justify-center items-center">
-                <img src="/images/l1.png" alt="" className="max-w-full h-auto" />
+                <img src="images/l1.png" alt="" className="max-w-full h-auto" />
             </li>
             <li className="flex justify-center items-center">
-                <img src="/images/l2.png" alt="" className="max-w-full h-auto" />
+                <img src="images/l2.png" alt="" className="max-w-full h-auto" />
             </li>
             <li className="flex justify-center items-center">
-                <img src="/images/l3.png" alt="" className="max-w-full h-auto" />
+                <img src="images/l3.png" alt="" className="max-w-full h-auto" />
             </li>
             <li className="flex justify-center items-center">
-                <img src="/images/l4.png" alt="" className="max-w-full h-auto" />
+                <img src="images/l4.png" alt="" className="max-w-full h-auto" />
             </li>
             <li className="flex justify-center items-center">
-                <img src="/images/l5.png" alt="" className="max-w-full h-auto" />
+                <img src="images/l5.png" alt="" className="max-w-full h-auto" />
             </li>
         </ul>
     </div>
