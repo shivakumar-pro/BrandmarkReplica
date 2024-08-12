@@ -1,9 +1,33 @@
+import React, { useState, useEffect } from 'react';
 import Navbar from "./Navbar";
 import ImageContentSwitcher from "./ImageContentSwitcher ";
 
 export default function Home() {
-    return <div className="min-h-screen">
-        <div className="h-screen flex flex-col items-center" style={{ background: '#fcd469' }}>
+    const [temp, setTemp] = useState(null); // Initialize with null to indicate no data yet
+
+    useEffect(() => {
+        const apiKey = '63d69e697594ffc703dd4c5c3bfc68fe'; // Your OpenWeatherMap API key
+        const city = 'Bangalore';
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+        const fetchWeather = async () => {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                setTemp(data?.main?.temp); // Update state with the temperature
+            } catch (error) {
+                console.error('Error fetching weather data:', error);
+            }
+        };
+
+        fetchWeather();
+    }, []);
+    return <div className="min-h-screen w-full">
+        <div className="h-screen flex flex-col items-center w-full" style={{ background: '#fcd469' }}>
+            <div className='w-full'><p className='absolute font-proxima text-blue-950 text-right right-5 font-bold w-full'>Bangalore Temperature: {temp}</p></div>
             <Navbar />
             <div className="flex flex-col items-start w-3/5 p-4 ">
                 <h1 className="font-proxima text-[1rem] sm:text-[2rem] md:text-[2.5rem] font-bold mt-16 w-3/4">

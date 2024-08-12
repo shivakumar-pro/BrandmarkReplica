@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <nav className="p-4 w-3/5 mt-12" >
             <div className="flex items-center justify-between h-28">
-                <div class="">
+                <div className="">
                     <div className="flex flex-col md:flex-row">
                         <a href="#3" className=" font-proxima text-white font-bold text-[35px] mr-4">BRAND</a>
                         <a href="#3" className="font-proxima text-black font-bold text-[35px]">MARK</a>
